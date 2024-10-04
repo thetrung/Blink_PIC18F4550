@@ -29,7 +29,7 @@
 #pragma config LVP = ON                  // Low-Voltage (Single-Supply) In-Circuit Serial Programming Enable bit (RB3/PGM pin has PGM function; low-voltage programming enabled)
 #pragma config XINST = OFF               // Extended Instruction Set Enable Bit ( Legacy Mode )
 
-#define _XTAL_FREQ 8000000     // 16-48Mhz but doesn't matter if config below.
+#define _XTAL_FREQ 8000000               // Using internal oscillator @ 8Mhz but doesn't matter if config below.
 
 #define PERIOD 100 // x2 (us)
 
